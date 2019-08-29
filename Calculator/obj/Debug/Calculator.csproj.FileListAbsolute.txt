@@ -4,3 +4,9 @@ C:\Users\alika\Documents\dev\visualStudio\sem5\softwareTest\Exer1\Calculator\Cal
 C:\Users\alika\Documents\dev\visualStudio\sem5\softwareTest\Exer1\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\alika\Documents\dev\visualStudio\sem5\softwareTest\Exer1\Calculator\Calculator\obj\Debug\Calculator.dll
 C:\Users\alika\Documents\dev\visualStudio\sem5\softwareTest\Exer1\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator\bin\Debug\Calculator.dll
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator\obj\Debug\Calculator.dll
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator\obj\Debug\Calculator.pdb

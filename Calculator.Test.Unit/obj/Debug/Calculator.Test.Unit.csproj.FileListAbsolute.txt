@@ -10,3 +10,15 @@ C:\Users\alika\Documents\dev\visualStudio\sem5\softwareTest\Exer1\Calculator\Cal
 C:\Users\alika\Documents\dev\visualStudio\sem5\softwareTest\Exer1\Calculator\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.csproj.CopyComplete
 C:\Users\alika\Documents\dev\visualStudio\sem5\softwareTest\Exer1\Calculator\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.dll
 C:\Users\alika\Documents\dev\visualStudio\sem5\softwareTest\Exer1\Calculator\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.pdb
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\bin\Debug\Calculator.Test.Unit.dll
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\bin\Debug\Calculator.Test.Unit.pdb
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\bin\Debug\Calculator.dll
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\bin\Debug\nunit.framework.dll
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\bin\Debug\Calculator.pdb
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\bin\Debug\nunit.framework.pdb
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\bin\Debug\nunit.framework.xml
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.csprojAssemblyReference.cache
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.csproj.CopyComplete
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.dll
+C:\Users\Bruger\Documents\SWT\git\Calculator\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.pdb
