@@ -61,8 +61,8 @@ namespace Calculator.Test.Unit
         }
 
         [TestCase(10, 10)]
-        [TestCase(5, 15)]
-        [TestCase(8, 23)]
+        [TestCase(-5, 5)]
+        [TestCase(100, 100)]
         public void Add_CorrectResult(double a, double result)
         {
             Assert.That(_uut.Add(a), Is.EqualTo(result));
