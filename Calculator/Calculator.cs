@@ -24,9 +24,14 @@ namespace Cal
             return Math.Pow(x, exp);
         }
 
-        public double Divide()
+        public double Divide(double a, double b)
         {
-            return 0;
+            if(b==0)
+            {
+                throw new Exception();
+            }
+
+            return a / b;
         }
     }
 }
