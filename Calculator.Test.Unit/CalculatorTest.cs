@@ -54,5 +54,11 @@ namespace Calculator.Test.Unit
         {
             Assert.That(_uut.Power(a, b), Is.EqualTo(result));
         }
+        [Test]
+        public void Divide_By_Zero()
+        {
+            Assert.Throws<Exception>(() => _uut.Divide(2, 0));
+        }
+
     }
 }
