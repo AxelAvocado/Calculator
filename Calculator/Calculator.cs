@@ -23,5 +23,10 @@ namespace Cal
         {
             return Math.Pow(x, exp);
         }
+
+        public double Divide()
+        {
+            return 0;
+        }
     }
 }
