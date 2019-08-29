@@ -25,5 +25,10 @@ namespace Cal
         }
 
         //TEST
+
+        public double Divide()
+        {
+            return 0;
+        }
     }
 }
