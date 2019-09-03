@@ -60,9 +60,9 @@ namespace Calculator.Test.Unit
             Assert.Throws<Exception>(() => _uut.Divide(2, 0));
         }
 
-        [TestCase(10, 10)]
-        [TestCase(-5, 5)]
-        [TestCase(100, 100)]
+        [TestCase(10, 30)]
+        [TestCase(-5, 15)]
+        [TestCase(100, 120)]
         public void Add_CorrectResult(double a, double result)
         {
             Assert.That(_uut.Add(a), Is.EqualTo(result));
