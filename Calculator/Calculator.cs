@@ -4,7 +4,7 @@ namespace Cal
 {
     public class Calculator
     {
-        private double _accumulator = 0;
+        private double _accumulator = 20;
         public double Add(double a, double b)
         {
             _accumulator = a + b;
