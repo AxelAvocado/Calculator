@@ -70,7 +70,7 @@ namespace Calculator.Test.Unit
 
         [TestCase(10, 10)]
         [TestCase(-5, 25)]
-        [TestCase(100, -80)]
+        [TestCase(50, -30)]
         public void Add_SubtractResult(double a, double result)
         {
             Assert.That(_uut.Subtract(a), Is.EqualTo(result));
