@@ -68,6 +68,14 @@ namespace Calculator.Test.Unit
             Assert.That(_uut.Add(a), Is.EqualTo(result));
         }
 
+        [TestCase(10, 10)]
+        [TestCase(-5, 25)]
+        [TestCase(100, -80)]
+        public void Add_SubtractResult(double a, double result)
+        {
+            Assert.That(_uut.Subtract(a), Is.EqualTo(result));
+        }
+
 
     }
 }
