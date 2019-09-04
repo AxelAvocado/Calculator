@@ -65,5 +65,21 @@ namespace Cal
             _accumulator = _accumulator * multiplier;
             return _accumulator;
         }
+
+        public double Divide(double divisor)
+        {
+            if(_accumulator == 0)
+            {
+                throw new Exception();
+            }
+
+            return _accumulator/divisor;
+
+        }
+
+        public double Power(double exponent)
+        {
+            return Math.Pow(_accumulator, exponent);
+        }
     }
 }

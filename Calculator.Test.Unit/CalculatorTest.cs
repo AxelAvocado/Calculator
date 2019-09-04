@@ -68,6 +68,40 @@ namespace Calculator.Test.Unit
             Assert.That(_uut.Add(a), Is.EqualTo(result));
         }
 
+        [TestCase(10, 10)]
+        [TestCase(-5, 25)]
+        [TestCase(50, -30)]
+        public void Subtract_CorrectResult(double a, double result)
+        {
+            Assert.That(_uut.Subtract(a), Is.EqualTo(result));
+        }
+
+        [TestCase(10, 200)]
+        [TestCase(-5, -100)]
+        [TestCase(50, 1000)]
+        public void Multiply_CorrectResult(double a, double result)
+        {
+            Assert.That(_uut.Multiply(a), Is.EqualTo(result));
+        }
+
+        [TestCase(10, 2)]
+        [TestCase(-5, -4)]
+        [TestCase(50, 0.4)]
+        public void Divide_CorrectResult(double a, double result)
+        {
+            Assert.That(_uut.Divide(a), Is.EqualTo(result));
+        }
+
+        [TestCase(10, 10240000000000)]
+        [TestCase(5, 3200000)]
+        public void Power_CorrectResult(double a, double result)
+        {
+            Assert.That(_uut.Power(a), Is.EqualTo(result));
+        }
+
+
+
+
 
     }
 }
