@@ -19,6 +19,8 @@ namespace Calculator.Test.Unit
             _uut = new Cal.Calculator();
         }
 
+        #region Without Accu
+        
         [TestCase(10, 5, 15)]
         [TestCase(-10, -5, -15)]
         [TestCase(-10, 5, -5)]
@@ -60,47 +62,59 @@ namespace Calculator.Test.Unit
             Assert.Throws<Exception>(() => _uut.Divide(2, 0));
         }
 
-        [TestCase(10, 30)]
-        [TestCase(-5, 15)]
-        [TestCase(100, 120)]
-        public void Add_CorrectResult(double a, double result)
+        #endregion
+
+        [TestCase(20, 10, 30)]
+        [TestCase(20, -5, 15)]
+        [TestCase(20, 100, 120)]
+        public void Add_CorrectResult(double accumulator, double b, double result)
         {
-            Assert.That(_uut.Add(a), Is.EqualTo(result));
+            _uut.Clear();
+            _uut.Add(accumulator);
+            Assert.That(_uut.Add(b), Is.EqualTo(result));
         }
 
-        [TestCase(10, 10)]
-        [TestCase(-5, 25)]
-        [TestCase(50, -30)]
-        public void Subtract_CorrectResult(double a, double result)
+        [TestCase(20, 10, 10)]
+        [TestCase(20, -5, 25)]
+        [TestCase(-20, 50, -70)]
+        public void Subtract_CorrectResult(double accumulator, double b, double result)
         {
-            Assert.That(_uut.Subtract(a), Is.EqualTo(result));
+            _uut.Clear();
+            _uut.Add(accumulator);
+            Assert.That(_uut.Subtract(b), Is.EqualTo(result));
         }
 
-        [TestCase(10, 200)]
-        [TestCase(-5, -100)]
-        [TestCase(50, 1000)]
-        public void Multiply_CorrectResult(double a, double result)
+        [TestCase(20, 10, 200)]
+        [TestCase(20, -5, -100)]
+        [TestCase(20, 50, 1000)]
+        public void Multiply_CorrectResult(double accumulator, double b, double result)
         {
-            Assert.That(_uut.Multiply(a), Is.EqualTo(result));
+            _uut.Clear();
+            _uut.Add(accumulator);
+            Assert.That(_uut.Multiply(b), Is.EqualTo(result));
         }
 
-        [TestCase(10, 2)]
-        [TestCase(-5, -4)]
-        [TestCase(50, 0.4)]
-        public void Divide_CorrectResult(double a, double result)
+        [TestCase(20, 10, 2)]
+        [TestCase(20, -5, -4)]
+        [TestCase(20, 50, 0.4)]
+        public void Divide_CorrectResult(double accumulator, double b, double result)
         {
-            Assert.That(_uut.Divide(a), Is.EqualTo(result));
+            _uut.Clear();
+            _uut.Add(accumulator);
+            Assert.That(_uut.Divide(b), Is.EqualTo(result));
         }
 
-        //[TestCase(10, 10240000000000)]
-        //[TestCase(5, 3200000)]
-        //[TestCase(-2,0.25)]
-        //[TestCase(2, 4)]
-        //[TestCase(-2.5,Double.NaN)]
-        //public void Power_CorrectResult(double a, double result)
-        //{
-        //    Assert.That(_uut.Power(a), Is.EqualTo(result));
-        //}
+        [TestCase(-2, 10, 1024)]
+        [TestCase(2, -5, 0.03125)]
+        [TestCase(-4, -2, 0.0625)]
+        [TestCase(2, 4, 16)]
+        [TestCase(-2, -2.5, Double.NaN)]
+        public void Power_CorrectResult(double accumulator, double b, double result)
+        {
+            _uut.Clear();
+            _uut.Add(accumulator);
+            Assert.That(_uut.Power(b), Is.EqualTo(result));
+        }
 
         [Test]
         public void Power_excep()

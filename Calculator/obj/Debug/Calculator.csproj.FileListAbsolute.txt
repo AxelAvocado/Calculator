@@ -16,3 +16,9 @@ C:\Users\zabih\Desktop\Calc\Calculator\Calculator\obj\Debug\Calculator.csprojAss
 C:\Users\zabih\Desktop\Calc\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\zabih\Desktop\Calc\Calculator\Calculator\obj\Debug\Calculator.dll
 C:\Users\zabih\Desktop\Calc\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareTest\swtGit\Calculator\Calculator\bin\Debug\Calculator.dll
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareTest\swtGit\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareTest\swtGit\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareTest\swtGit\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareTest\swtGit\Calculator\Calculator\obj\Debug\Calculator.dll
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareTest\swtGit\Calculator\Calculator\obj\Debug\Calculator.pdb
