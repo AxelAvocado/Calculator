@@ -92,6 +92,10 @@ namespace Cal
             {
                 throw new Exception();
             }
+            else if (test == null)
+            {
+                throw new Exception();
+            }
             return Math.Pow(_accumulator, exponent);
         }
     }
