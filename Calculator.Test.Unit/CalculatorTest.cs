@@ -94,13 +94,19 @@ namespace Calculator.Test.Unit
 
         [TestCase(10, 10240000000000)]
         [TestCase(5, 3200000)]
+        [TestCase(-2,0.25)]
+        [TestCase(2, 4)]
+        [TestCase(-2.5,123)]
         public void Power_CorrectResult(double a, double result)
         {
             Assert.That(_uut.Power(a), Is.EqualTo(result));
         }
 
-
-
+        [Test]
+        public void Power_excep()
+        {
+            Assert.Throws<Exception>(() => _uut.Power(-2.5));
+        }
 
 
     }

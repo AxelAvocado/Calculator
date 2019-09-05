@@ -4,7 +4,7 @@ namespace Cal
 {
     public class Calculator
     {
-        private double _accumulator = 20;
+        private double _accumulator = -2;
         public double Add(double a, double b)
         {
             _accumulator = a + b;
@@ -79,6 +79,19 @@ namespace Cal
 
         public double Power(double exponent)
         {
+            double test= Math.Pow(_accumulator, exponent);
+            if (test == Double.NaN)
+            {
+                throw new Exception();
+            }
+            else if (test == Double.NegativeInfinity)
+            {
+                throw new Exception();
+            }
+            else if (test == Double.PositiveInfinity)
+            {
+                throw new Exception();
+            }
             return Math.Pow(_accumulator, exponent);
         }
     }
