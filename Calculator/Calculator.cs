@@ -4,13 +4,11 @@ namespace Cal
 {
     public class Calculator
     {
-        private double _accumulator = 0;
-        
+
         #region Add 
 
         public double Add(double a, double b)
         {
-            _accumulator = a + b;
             return a + b;
         }
         public double Add(double addend)
@@ -25,14 +23,11 @@ namespace Cal
 
         public double Subtract(double a, double b)
         {
-            _accumulator = a - b;
             return a - b;
         }
         public double Subtract(double subtractor)
         {
             Accumulator -= subtractor;
-
-
             return Accumulator;
         }
 
@@ -42,7 +37,6 @@ namespace Cal
 
         public double Multiply(double a, double b)
         {
-            //_accumulator = a * b;
             return a * b;
         }
         public double Multiply(double multiplier)
@@ -56,7 +50,6 @@ namespace Cal
         #region POWER
         public double Power(double x, double exp)
         {
-            _accumulator = Math.Pow(x, exp);
             return Math.Pow(x, exp);
         }
         public double Power(double exponent)
@@ -72,10 +65,6 @@ namespace Cal
                 throw new Exception();
             }
             else if (test == Double.PositiveInfinity)
-            {
-                throw new Exception();
-            }
-            else if (test == null)
             {
                 throw new Exception();
             }
@@ -112,12 +101,20 @@ namespace Cal
 
         #endregion
 
-        
-        public double Accumulator { get; set; }
+        #region Accumulator
+
+        public double Accumulator
+        {
+            get;
+            set;
+        }
 
         public void Clear()
         {
             Accumulator = 0;
         }
+
+        #endregion
+
     }
 }
